@@ -228,6 +228,11 @@ div.carousel {
 }
 
 .carousel_item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
   /* 
     Setting width, rather than max-width or min-width,
     means annoying pop-ins won't happen
